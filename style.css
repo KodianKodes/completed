@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+.bg-navbar{
+    background-image: linear-gradient(to bottom, rgba(34,40,49, 0.5), rgb(34,40,49, 0.5)), url("./img/Rectangle 33.png") !important;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: auto;
+    background: #222831;
+    /* opacity: 0.9; */
+}
+
+/* .ivanr{
+    background-image: url("./img/ivanr.png");
+    margin-top: 30% !important;
+} */
+.nav-left{
+    margin-left: 3rem !important;
+}
+.nav-color{
+    background-color:  rgba(34, 40, 49, 0.7) !important;
+    width: 100% !important;
+}
+.nav-link{
+    color: #EEEEEE !important;
+    padding: .5rem 1rem !important;
+}
+.btn-success{
+    background-color: #DE1B4A !important;
+    border-color: #DE1B4A !important;
+    padding: 1rem 2rem !important;
+}
+.name-text{
+    text-transform: capitalize;
+    color: #EEEEEE;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 68px;
+}
+.padding-body{
+    padding-top: 35rem;
+    /* margin-top: 17rem; */
+}
+.role{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: -10;
+    color: #EEEEEE;
+    text-align: center;
+}
+.border-line{
+    border: 2px solid rgba(238, 238, 238, 0.8);
+    width: 100%;
+}
+.btn-outline-primary{
+    border-color: #EEEEEE !important;
+    color: #EEEEEE !important;
+    font-size: 18px !important;
+    padding: 1rem 1.5rem !important;
+    margin-top: 1rem;
+}
+.btn-outline-primary:hover{
+    background-color: #EEEEEE !important;
+    color: black !important;
+}
+.btn-bg{
+    /* background-color:  #222831; */
+    background-image: linear-gradient(to right, rgb(34,40,49,0.2), rgb(34,40,49, 0.2));
+    padding: 1rem 4rem;
+    height: 25vh;
+    /* opacity: 0.5; */
+}
+.about-section{
+    background-color:  #222831;
+    padding-bottom: 2rem;
+    /* margin-top: 5rem; */
+}
+.about-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 7;
+    text-align: center;
+    color: #DE1B4A;
+}
+.about-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5rem;
+}
+.about-number{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 2rem !important;
+}
+.line-mobile{
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    margin-top: 2rem;
+    display: none;
+}
+.line-accross{
+    width: 100%;
+    border: 2px solid #FFFFFF;
+    margin-top: 2rem;
+    display: block;
+}
+.about-number-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 2rem;
+    color: #DE1B4A;
+    display: block;
+    margin-bottom: 5rem;
+}
+.about-number-text-1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 2rem;
+    color: #DE1B4A;
+    display: none;
+}
+.client-section{
+    background-image: url("./img/Rectangle 13.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: .3rem;
+}
+.client-box{
+    background: rgba(34, 40, 49, 0.39);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 7rem !important;
+    padding-bottom: 10rem !important;
+    backdrop-filter: blur(20px);
+}
+.client-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #DE1B4A;
+    margin-top: 2rem;
+}
+.client-role{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EEEEEE;
+}
+.service-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 8;
+    text-align: center;
+    color: #DE1B4A;
+}
+.service-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10rem;
+}
+.wedding-pic{
+    background-image: url("./img/Rectangle 15.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .3rem;
+}
+.wedding-box{
+    background: rgba(34, 40, 49, 0.39);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 7rem !important;
+    padding-bottom: 5rem !important;
+}
+.client-header{
+    padding: 2rem 3rem;
+    text-align: center;
+}
+.wedding-header{
+    padding: 2rem 3rem;
+    text-align: center;
+}
+.wedding-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF
+}
+.btn-outline-success{
+    color: #DE1B4A !important;
+    border-color: #DE1B4A !important;
+    padding: 1rem 3rem !important;
+}
+.btn-margin-top{
+    margin-top: 5rem;
+}
+.btn-outline-success:hover{
+    background-color: #DE1B4A !important;
+    color: #FFFFFF !important;
+}
+.fashion{
+    background-image: url("./img/Rectangle 32.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .3rem;
+    margin-top: 8rem;
+}
+.animal{
+    background-image: url("./img/Rectangle 17.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .3rem;
+    margin-top: 8rem;
+}
+.gallery-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 10rem;
+    /* line-height: 15rem; */
+    color: #DE1B4A;
+}
+.gallery-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 5;
+    color: #FFFFFF;
+}
+.children-text{
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 2rem;
+    text-align: center;
+}
+.wedding{
+    display: block;
+}
+.wedding2{
+    display: none;
+}
+.children{
+    display: block;
+}
+.children2{
+    display: none;
+}
+.btn-view-more{
+    margin-top: 1rem;
+    padding: 1rem 4rem !important;
+}
+.pic-padding{
+    padding-bottom: 3rem;
+}
+.bg-contact{
+    background-image: linear-gradient(to right, rgba(245, 246, 248, 0.2), rgba(243, 243, 245, 0.2)), url("./img/foot.png");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center 100%;
+    padding-bottom: 6rem;
+}
+.contact-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 60px;
+    text-align: center;
+    color: #DE1B4A;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+.contact-down{
+    margin-top: 5rem;
+}
+.contact-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: .2rem 1rem;
+}
+label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.form-down{
+    margin-top: 5rem;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    /* background-image: linear-gradient(to right, rgba(245, 246, 248, 0.2), rgba(243, 243, 245, 0.2)); */
+    background-color: rgb(95, 93, 93,0.1);
+    outline: 0;
+    width: 100%;
+    height: 30px;
+    caret-color: #FFFFFF;
+  }
+  input::placeholder{
+      color: #FFFFFF;
+  }
+  textarea{
+    background-color: rgb(95, 93, 93,0.1);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 100%;
+    caret-color: #FFFFFF;
+  }
+  .icon-contact{
+      text-align: center;
+  }
+  .text-area{
+    margin-top: 3rem;
+  }
+  .textarea-color{
+      color: #FFFFFF;
+      outline: 0;
+  }
+  .btn-subscribe{
+    margin-top: 7rem;
+    padding: 1rem 4rem !important;
+}
+.all-right{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 15;
+}
+.icon-contact{
+    text-align: center;
+}
+.social-icon{
+    letter-spacing: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:578px){
+    .nav-link{
+        color: #DE1B4A !important;
+        padding: .5rem 1rem !important;
+        text-align: center !important;
+        font-size: 2rem !important;
+    }
+    .navbar-light .navbar-toggler  {
+        border-color: #DE1B4A !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("./img/Vector.png") !important;
+    }
+    .bg-navbar{
+        background-image:  url("./img/newgirl2.png") !important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        height: auto;
+        max-width: 100%;
+        background: #222831;
+        /* opacity: 0.9; */
+    }
+    .navbar-collapse {
+        height: 100vh !important;
+    }
+    .name-text{
+        font-size: 32px;
+    } 
+    .role{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .nav-left{
+        margin-left: 0 !important;
+    }
+    .navbar{
+        padding: 0 !important;
+    }
+    .line-mobile{
+        display: block;
+    }
+    .line-accross{
+        display: none;
+    }
+    .about-header{
+        line-height: 4;
+    }
+    .about-text{
+        font-size: 13px;
+    }
+    .client-header{
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+    .client-center{
+        text-align: center;
+    }
+    .service-text{
+        font-size: 13px;
+    }
+    .service-head{
+        line-height: 4;
+    }
+    .wedding-text{
+        font-size: 13px;
+    }
+    .about-number-text-1{
+        display: block;
+    }
+    .about-number-text{
+        display: none !important;
+    }
+    .numbers{
+        margin-top: 3rem;
+    }
+    .client-section{
+        padding: .2rem !important;
+    }
+    .client-box{
+        padding-bottom: 3rem !important;
+        margin-top: 4rem !important;
+    }
+    .wedding-header{
+        padding: 2rem 1.5rem;
+        text-align: left;
+    }
+    .wedding-box{
+        margin-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .btn-margin-top {
+        margin-top: 1rem !important;
+    }
+    .children{
+        display: none;
+    }
+    .children2{
+        display: block;
+    }
+    .wedding{
+        display: none;
+    }
+    .wedding2{
+        display: block;
+    }
+    .pic-padding{
+        padding-bottom: 3rem;
+    }
+    .gallery-header{
+        margin-top: 5rem;
+    }
+    .gallery-text{
+        line-height: 2;
+        margin-top: 5rem;
+    }
+    .icon-down{
+        margin-top: 2rem;
+    }
+    label{
+        margin-top: 1rem;
+    }
+    .icon-contact{
+        text-align: left;
+    }
+    .form-down{
+        margin-top: 3rem;
+    }
+    .text-area{
+        margin-top: 2rem;
+    }
+    .contact-down{
+        margin-top: 0;
+    }
+    .client-section{
+        background-image: url("./img/Rectangle 13.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: none;
+        padding: .3rem;
+    }
+    .wedding-pic{
+        background-image: url("./img/Rectangle 15.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+    }
+    .fashion{
+        background-image: url("./img/Rectangle 32.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+        margin-top: 8rem;
+    }
+    .animal{
+        background-image: url("./img/Rectangle 17.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+        margin-top: 8rem;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px){
+    .navbar {
+        padding: 0 !important;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("./img/Vector.png") !important;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #DE1B4A !important;
+    }
+    .nav-link{
+        color: #DE1B4A !important;
+        font-size: 1.5rem !important;
+    }
+    .nav-left{
+        margin-left: 0 !important;
+    }
+    .about-number-text{
+        font-size: 25px;
+    }
+    .client-box{
+        padding-bottom: 5rem !important;
+    }
+    .btn-margin-top {
+        margin-top: 2rem;
+    }
+    .children-center{
+        text-align: center;
+    }
+    .client-section{
+        background-image: url("./img/Rectangle 13.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: none;
+        padding: .3rem;
+    }
+    .wedding-pic{
+        background-image: url("./img/Rectangle 15.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+    }
+    .fashion{
+        background-image: url("./img/Rectangle 32.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+        margin-top: 8rem;
+    }
+    .animal{
+        background-image: url("./img/Rectangle 17.png");
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: .3rem;
+        margin-top: 8rem;
+    }
+}
+
+
+
+
